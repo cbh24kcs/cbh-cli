@@ -1,0 +1,31 @@
+{
+  "name": "@cbh/cli",
+  "version": "0.0.17",
+  "description": "",
+  "bin": {
+    "cbh": "./bin/cbh.js"
+  },
+  "files": [
+    "bin",
+    "libs"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873/"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cbh",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}

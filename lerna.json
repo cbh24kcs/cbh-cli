@@ -1,11 +1,14 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "command": {
     "publish": {
       "registry": "http://localhost:4873",
       "verifyAccess": false,
-      "ignoreChanges": ["*.md", "*/test/*"]
+      "ignoreChanges": [
+        "*.md",
+        "*/test/*"
+      ]
     }
   }
 }

@@ -1,5 +1,5 @@
 18 error Error: Command failed with exit code 1: git remote update
-18 error fatal: unable to access 'https://github.com/cbh24kcs/cbh-cli.git/': Failed to connect to github.com port 443 after 21089 ms: Couldn't connect to server
+18 error fatal: unable to access 'https://github.com/cbh24kcs/cbh-cli.git/': Failed to connect to github.com port 443 after 21132 ms: Couldn't connect to server
 18 error     at makeError (E:\projects\cbh-cli\node_modules\execa\lib\error.js:59:11)
 18 error     at module.exports.sync (E:\projects\cbh-cli\node_modules\execa\index.js:186:17)
 18 error     at Object.execSync (E:\projects\cbh-cli\node_modules\lerna\dist\index.js:1579:31)

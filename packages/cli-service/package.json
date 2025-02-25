@@ -14,6 +14,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmmirror.com/"
   },
   "repository": {
@@ -25,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/cbh24kcs/cbh-cli/issues"
-  }
+  },
+  "gitHead": "b4e60042791b5c28ac2d6ab8886f51a0da4b8ad6"
 }

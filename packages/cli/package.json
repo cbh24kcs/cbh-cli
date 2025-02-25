@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/cbh24kcs/cbh-cli/issues"
   },
-  "gitHead": "b60ea3218a6ba0e316eceed7724b8d2123c25e13"
+  "gitHead": "b60ea3218a6ba0e316eceed7724b8d2123c25e13",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
 }

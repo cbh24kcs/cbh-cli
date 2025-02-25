@@ -1,31 +1,32 @@
 {
   "name": "@cbh/cli",
-  "version": "0.0.17",
-  "description": "",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "cbh24kcs <479466796@qq.com>",
+  "homepage": "https://github.com/cbh24kcs/cbh-cli#readme",
+  "license": "ISC",
+  "main": "lib/cli.js",
   "bin": {
-    "cbh": "./bin/cbh.js"
+    "cbh": "bin/cbh.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
-    "bin",
-    "libs"
+    "lib"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "http://localhost:4873/"
+    "registry": "http://localhost:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbh24kcs/cbh-cli.git"
   },
   "scripts": {
-    "test": "test"
+    "test": "node ./__tests__/@cbh/cli.test.js"
   },
-  "keywords": [
-    "cbh",
-    "cli"
-  ],
-  "author": "",
-  "license": "ISC",
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "dependencies": {
-    "commander": "^13.1.0"
+  "bugs": {
+    "url": "https://github.com/cbh24kcs/cbh-cli/issues"
   }
 }

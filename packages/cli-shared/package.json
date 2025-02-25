@@ -1,12 +1,29 @@
 {
   "name": "@cbh/cli-shared",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "cbh24kcs <479466796@qq.com>",
+  "homepage": "https://github.com/cbh24kcs/cbh-cli#readme",
+  "license": "ISC",
+  "main": "lib/cli-shared.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbh24kcs/cbh-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@cbh/cli-shared.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/cbh24kcs/cbh-cli/issues"
+  }
 }

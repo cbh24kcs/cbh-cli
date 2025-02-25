@@ -1,17 +1,17 @@
 {
   "name": "cbh-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "private": true,
   "main": "index.js",
-
-  "scripts": {
-  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "lerna": "^8.1.9"
+    "lerna": "^8.2.0"
   }
 }

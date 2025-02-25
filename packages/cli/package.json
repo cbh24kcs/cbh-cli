@@ -6,6 +6,7 @@
   "homepage": "https://github.com/cbh24kcs/cbh-cli#readme",
   "license": "ISC",
   "main": "lib/cli.js",
+  "type": "module",
   "bin": {
     "cbh": "bin/cbh.js"
   },
@@ -32,6 +33,10 @@
   },
   "gitHead": "b60ea3218a6ba0e316eceed7724b8d2123c25e13",
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dayjs": "^1.11.13",
+    "inquirer": "^12.4.2"
   }
 }
